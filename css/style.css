@@ -18,13 +18,49 @@ header{
     align-items: center;
     height: 12vh;
     background: #E4E4E4;
-    
+    flex-direction: column;
 }
 
-.logo{
+header > div:first-child {
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > div:first-child > img{
     height: 6vh;
     width: auto
 }
+
+header > div:first-child > span{
+    font-size: 1.2rem;
+    padding: 0vh 2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: #C88143;
+    gap: 1vw;
+    border-radius: 2vh;
+    transition: .3s;
+}
+
+header > div:first-child > span:hover{
+    background-color: #AA6D38;
+}
+header > div:first-child > span > a{
+    text-decoration: none;
+    font-size: 2vh;
+    color: #fdfdfd;
+}
+header > div:first-child > span > svg{
+    width: 1.5vw;
+}
+
 .main-container{
     height: 88vh;
     width: 100%;
@@ -196,6 +232,7 @@ header{
     border-radius: 0.8vh;
     border: none;
     cursor: pointer;
+    transition: .3s;
 }
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(1):hover{
     background-color: #AA6D38;
