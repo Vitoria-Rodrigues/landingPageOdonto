@@ -1,0 +1,24 @@
+.sfPro-Display-Bold{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700;
+}
+.sfPro-Display-Semibold{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 600;
+}
+.sfPro-Display-Medium{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+}
+.sfPro-Display-Regular{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+}
+.sfPro-Display-Light{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 300;
+}
+.sfPro-Display-Thin{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 200;
+}

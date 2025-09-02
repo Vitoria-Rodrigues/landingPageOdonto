@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkou</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <!-- Sf Pro -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sf-font@1.0.0/stylesheet.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <img src="img/logo-joyce-martins.png" class="logo">
+    </header>
+
+    <main class="main-container"> 
+        <div class="top-card">
+            <h2 class="sfPro-Display-Bold">Indique 1 amigo!</h2>
+            <!-- <span class="span-img">
+                <img src="">
+            </span> -->
+        </div>
+        <div class="main-card">
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <h1 class="sfPro-Display-Bold">Sua Indicação Recompensada via PIX</h1>
+                            <h2 class="sfPro-Display-Semibold">Recomende o cuidado que você confia e seja recompensado de forma prática e transparente.</h2>
+                            <div id="rendererDiv"></div>
+                            <h3 class="sfPro-Display-Thin">Não há limite de indicações. Comece a compartilhar agora mesmo!</h3>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 >Gere o seu link de indicação e comece a indicar agora.</h2>
+                    <div>
+                        <form>
+                            <input placeholder="Nome" type="text">
+                            <input placeholder="CPF" type="text">
+                            <input placeholder="Email" type="text">
+                            <input placeholder="WhatsApp" type="text">
+                            <button>Gerar link</button>
+                            <input type="text">
+                            <button>Copiar</button>
+                            <button>Compartilhar no WhatsApp</button>
+                        </form>
+                    </div>
+                    <span>
+                        <a href="#">Acesse o regulamento completo</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<div class="indication-card">
+    <p class="sfPro-Display-Semibold">Acompanhar minhas indicações 
+        <svg width="64px" height="64px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8 3V0H6V3H8Z" fill="#fff"></path> <path d="M0.792893 2.20711L3.29289 4.70711L4.70711 3.29289L2.20711 0.792893L0.792893 2.20711Z" fill="#fff"></path> <path d="M6 5L5 6.00001L8 15H10L10.7172 12.1314L14.2929 15.7071L15.7071 14.2929L12.1314 10.7172L15 10V8L6 5Z" fill="#fff"></path> <path d="M0 6H3V8H0V6Z" fill="#fff"></path> </g></svg>
+    </p>
+</div>
+
+ <aside class="aside-container">
+    <h2>Você só tem a ganhar!</h2>
+    <div>
+    <span>
+        <svg fill="#ffffff" height="100px" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M310.511,325.188c-8.883-7.39-22.912-13.764-42.82-19.465v-70.298c7.074,0.879,12.954,3.004,17.485,6.298 c6.946,5.171,10.573,12.774,11.076,22.997c0,4.147,1.297,7.552,3.891,10.146c4.89,4.847,12.962,4.403,16.964-0.026 c2.551-2.603,3.849-5.999,3.849-10.129c0-15.326-5.316-27.921-15.838-37.453c-9.6-8.499-22.178-13.449-37.427-14.729V201.31 c0-6.699-4.096-10.726-10.974-10.726c-6.699,0-10.701,4.028-10.701,10.726v11.204c-15.3,1.126-28.134,6.076-38.212,14.729 c-11.989,10.428-18.065,24.422-18.065,41.6c0,14.848,5.436,26.999,16.162,36.096c9.003,7.748,22.153,13.722,40.115,18.253v75.554 c-10.351-1.527-18.56-4.727-24.422-9.574c-8.678-7.347-12.809-18.048-12.638-32.751c0-4.147-1.212-7.475-3.439-9.702 c-4.378-4.898-12.51-4.753-16.589-0.154c-2.372,2.372-3.575,5.7-3.575,9.847c0,23.279,7.049,40.627,21.009,51.652 c9.387,7.049,22.716,11.597,39.646,13.577v16.572c0,6.878,4.002,10.974,10.701,10.974c6.878,0,10.974-4.096,10.974-10.974v-16.273 c15.872-1.826,29.449-7.45,40.388-16.802c12.74-10.948,19.191-25.148,19.191-42.146 C327.262,347.017,321.621,334.293,310.511,325.188z M246.016,299.75c-10.837-3.302-18.765-7.475-23.612-12.45 c-5.171-5.325-7.689-11.998-7.689-20.378c0-10.172,3.814-17.971,11.622-23.825c5.521-4.096,12.126-6.724,19.678-7.851V299.75z M289.024,389.828c-6.05,4.471-13.21,7.45-21.333,8.849v-69.103c12.638,3.524,21.376,7.398,26.01,11.597 c5.513,4.873,8.311,12.774,8.311,23.475C302.012,375.322,297.779,383.548,289.024,389.828z"></path> </g> </g> <g> <g> <path d="M414.242,224.862c-18.526-25.259-48.094-62.473-74.923-82.628l42.24-105.6c1.604-3.337,2.509-7.083,2.509-11.034 c0-14.131-11.383-25.591-25.515-25.6c-0.051,0-0.102,0-0.154,0c-0.538,0-1.075,0.017-1.621,0.051 c-3.618,0.23-7.031,1.203-10.086,2.782C342.647,4.779,298.428,25.6,256,25.6c-44.288,0-90.522-22.69-90.982-22.912 c-3.618-1.792-7.518-2.671-11.392-2.671c-6.306,0-12.535,2.321-17.374,6.784c-7.799,7.202-10.368,18.458-6.426,28.314 l42.846,107.127c-26.829,20.156-56.397,57.37-74.923,82.628C70.81,261.606,25.6,331.145,25.6,384c0,70.579,57.421,128,128,128 h204.8c70.579,0,128-57.421,128-128C486.4,331.145,441.19,261.606,414.242,224.862z M153.6,25.6c0,0,51.2,25.6,102.4,25.6 s102.4-25.6,102.4-25.6L317.44,128H194.56L153.6,25.6z M358.4,486.4H153.6c-56.559,0-102.4-45.85-102.4-102.4 c0-76.8,128-230.4,153.6-230.4h102.4c25.6,0,153.6,153.6,153.6,230.4C460.8,440.55,414.959,486.4,358.4,486.4z"></path> </g> </g> </g></svg>
+        <h3>Premiação garantida</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus labore numquam repellendus facere, eaque, debitis ipsam fugiat alias doloremque, quis nihil rem ut cupiditate quibusdam ex ea vitae quod unde.</p>
+    </span>
+    <span>
+        <svg fill="#ffffff" width="100px" height="100px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M32 448c0 17.7 14.3 32 32 32h160V320H32v128zm256 32h160c17.7 0 32-14.3 32-32V320H288v160zm192-320h-42.1c6.2-12.1 10.1-25.5 10.1-40 0-48.5-39.5-88-88-88-41.6 0-68.5 21.3-103 68.3-34.5-47-61.4-68.3-103-68.3-48.5 0-88 39.5-88 88 0 14.5 3.8 27.9 10.1 40H32c-17.7 0-32 14.3-32 32v80c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16v-80c0-17.7-14.3-32-32-32zm-326.1 0c-22.1 0-40-17.9-40-40s17.9-40 40-40c19.9 0 34.6 3.3 86.1 80h-86.1zm206.1 0h-86.1c51.4-76.5 65.7-80 86.1-80 22.1 0 40 17.9 40 40s-17.9 40-40 40z"></path></g></svg>
+        <h3>Indicado premiado</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis optio libero eius ullam quis sequi similique saepe. Enim illo hic, ad blanditiis dolorum, optio voluptates, quia sit magni quam eaque!</p>
+    </span>
+    <span> 
+        <svg fill="#ffffff" width="100px" height="100px" viewBox="0 0 256.00 256.00" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="6.4"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M248,128a55.99955,55.99955,0,0,1-95.59766,39.59766q-.17137-.17139-.332-.35254L92.11963,99.55225a40,40,0,1,0,0,56.8955l8.519-9.61914a8,8,0,1,1,11.97754,10.6084l-8.68652,9.80811q-.16041.1809-.332.35254a56,56,0,1,1,0-79.19532q.17137.17139.332.35254l59.95068,67.69287a40,40,0,1,0,0-56.8955l-8.519,9.61914A8,8,0,0,1,143.38379,98.563l8.68652-9.80811q.16041-.1809.332-.35254A56,56,0,0,1,248,128Z"></path> </g></svg>
+        <h3>Sem limites de indicação</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis voluptatem praesentium, unde error ducimus fugiat reiciendis quasi laborum, quas, inventore quos blanditiis porro vel distinctio dolor deleniti eos vitae commodi.</p>
+    </span>
+    </div>
+ </aside>
+
+ <footer class="footer-container">
+    <section>
+        <img src="img/logo-joyce-martins.png">
+        <p>Horários de atendimento:</p>
+        <p>Seg a Sex: 08h às 18h</p>  
+        <p>Sáb: 08h às 12h</p> 
+        <div>
+        <span>
+            <a href="#">
+                <svg fill="#ffffff" width="64px" height="64px" viewBox="-1.66 0 740.824 740.824" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M630.056 107.658C560.727 38.271 468.525.039 370.294 0 167.891 0 3.16 164.668 3.079 367.072c-.027 64.699 16.883 127.855 49.016 183.523L0 740.824l194.666-51.047c53.634 29.244 114.022 44.656 175.481 44.682h.151c202.382 0 367.128-164.689 367.21-367.094.039-98.088-38.121-190.32-107.452-259.707m-259.758 564.8h-.125c-54.766-.021-108.483-14.729-155.343-42.529l-11.146-6.613-115.516 30.293 30.834-112.592-7.258-11.543c-30.552-48.58-46.689-104.729-46.665-162.379C65.146 198.865 202.065 62 370.419 62c81.521.031 158.154 31.81 215.779 89.482s89.342 134.332 89.311 215.859c-.07 168.242-136.987 305.117-305.211 305.117m167.415-228.514c-9.176-4.591-54.286-26.782-62.697-29.843-8.41-3.061-14.526-4.591-20.644 4.592-6.116 9.182-23.7 29.843-29.054 35.964-5.351 6.122-10.703 6.888-19.879 2.296-9.175-4.591-38.739-14.276-73.786-45.526-27.275-24.32-45.691-54.36-51.043-63.542-5.352-9.183-.569-14.148 4.024-18.72 4.127-4.11 9.175-10.713 13.763-16.07 4.587-5.356 6.116-9.182 9.174-15.303 3.059-6.122 1.53-11.479-.764-16.07-2.294-4.591-20.643-49.739-28.29-68.104-7.447-17.886-15.012-15.466-20.644-15.746-5.346-.266-11.469-.323-17.585-.323-6.117 0-16.057 2.296-24.468 11.478-8.41 9.183-32.112 31.374-32.112 76.521s32.877 88.763 37.465 94.885c4.587 6.122 64.699 98.771 156.741 138.502 21.891 9.45 38.982 15.093 52.307 19.323 21.981 6.979 41.983 5.994 57.793 3.633 17.628-2.633 54.285-22.19 61.932-43.616 7.646-21.426 7.646-39.791 5.352-43.617-2.293-3.826-8.41-6.122-17.585-10.714"></path></g></svg></a>
+        </span> 
+        <span>
+            <a href="#">
+                <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#ffff"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#ffff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#ffff"></path> </g></svg></a>
+        </span> 
+        <span>
+            <a href="#">
+                <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.72 3.99997H5.37C5.19793 3.99191 5.02595 4.01786 4.86392 4.07635C4.70189 4.13484 4.55299 4.22471 4.42573 4.34081C4.29848 4.45692 4.19537 4.59699 4.12232 4.75299C4.04927 4.909 4.0077 5.07788 4 5.24997V18.63C4.01008 18.9901 4.15766 19.3328 4.41243 19.5875C4.6672 19.8423 5.00984 19.9899 5.37 20H18.72C19.0701 19.9844 19.4002 19.8322 19.6395 19.5761C19.8788 19.32 20.0082 18.9804 20 18.63V5.24997C20.0029 5.08247 19.9715 4.91616 19.9078 4.76122C19.8441 4.60629 19.7494 4.466 19.6295 4.34895C19.5097 4.23191 19.3672 4.14059 19.2108 4.08058C19.0544 4.02057 18.8874 3.99314 18.72 3.99997ZM9 17.34H6.67V10.21H9V17.34ZM7.89 9.12997C7.72741 9.13564 7.5654 9.10762 7.41416 9.04768C7.26291 8.98774 7.12569 8.89717 7.01113 8.78166C6.89656 8.66615 6.80711 8.5282 6.74841 8.37647C6.6897 8.22474 6.66301 8.06251 6.67 7.89997C6.66281 7.73567 6.69004 7.57169 6.74995 7.41854C6.80986 7.26538 6.90112 7.12644 7.01787 7.01063C7.13463 6.89481 7.2743 6.80468 7.42793 6.74602C7.58157 6.68735 7.74577 6.66145 7.91 6.66997C8.07259 6.66431 8.2346 6.69232 8.38584 6.75226C8.53709 6.8122 8.67431 6.90277 8.78887 7.01828C8.90344 7.13379 8.99289 7.27174 9.05159 7.42347C9.1103 7.5752 9.13699 7.73743 9.13 7.89997C9.13719 8.06427 9.10996 8.22825 9.05005 8.3814C8.99014 8.53456 8.89888 8.6735 8.78213 8.78931C8.66537 8.90513 8.5257 8.99526 8.37207 9.05392C8.21843 9.11259 8.05423 9.13849 7.89 9.12997ZM17.34 17.34H15V13.44C15 12.51 14.67 11.87 13.84 11.87C13.5822 11.8722 13.3313 11.9541 13.1219 12.1045C12.9124 12.2549 12.7546 12.4664 12.67 12.71C12.605 12.8926 12.5778 13.0865 12.59 13.28V17.34H10.29V10.21H12.59V11.21C12.7945 10.8343 13.0988 10.5225 13.4694 10.3089C13.84 10.0954 14.2624 9.98848 14.69 9.99997C16.2 9.99997 17.34 11 17.34 13.13V17.34Z" fill="#ffff"></path> </g></svg></a>
+        </span> 
+        </div>
+    </section>
+    <section>
+        <h2>Contato</h2>
+        <p>Entre em contato agora mesmo para sanar suas dúvidas. Clique no botão abaixo e fale diretamente conosco.</p>
+        <a href="mailto:#"><svg fill="#ffffff" width="64px" height="64px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fill-rule="evenodd"></path> </g></svg>emai@gmail.com</a>
+        <p>Telefone:</p>
+        <p>(11)98877-6655</p>
+    </section>
+ </footer>
+    <script type="importmap">
+    {
+        "imports": {
+            "tween": "https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.5.0/dist/tween.esm.js",
+            "three": "https://unpkg.com/three@0.166.1/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.166.1/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="./three/renderer.js"></script>
+</body>
+</html>

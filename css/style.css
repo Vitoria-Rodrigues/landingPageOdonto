@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,body{
+    height: 100%; 
+    width: 100%;
+    background: #fffafa;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 12vh;
+    background: #E4E4E4;
+}
+
+.logo{
+    height: 6vh;
+    width: auto
+}
+.main-container{
+    height: 88vh;
+    width: 100%;
+}
+.top-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 12vh;
+    width: 100%;
+    background: snow;
+}
+
+.top-card h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0f0f0f;
+}
+
+.main-card{
+    display: flex;
+    justify-content: start;
+    height: 76vh;
+    width: 100%;
+    background: snow;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 2vh;
+}
+
+.main-card > div:first-child{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: #0D2C33;
+    height: 70vh;
+    width: auto;
+}
+
+.main-card > div:first-child > div:nth-child(1){
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.main-card > div:first-child > div:nth-child(1) > div:nth-child(1){
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.main-card > div:first-child > div:nth-child(1) > div:nth-child(1) > div:nth-child(1){ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 1vh;
+}
+.main-card > div:first-child > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1{ 
+    color: #F2E779;
+}
+.main-card > div:first-child > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2{ 
+    color: snow;
+}
+.main-card > div:first-child > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3{ 
+    color: snow;
+}
+.main-card > div:first-child > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div{ 
+    position: relative;
+    width: 100%!important;
+    height: 100%!important;
+    z-index: 10;
+}
+.main-card > div:first-child > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div > canvas{ 
+    display: block!important;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.main-card > div:first-child > div:nth-child(2){
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-self: center;
+    align-items: center;
+    border-radius: 0 2vh 2vh 0;
+    background: #0D2C33;
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > h2{
+    padding-top: 2.5vh;
+    padding-bottom: 4vh;
+    font-weight: 600;
+    color:  #fff;
+    font-size: 1.2rem;
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1){
+    padding-bottom: 2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-self: center;
+    height: auto;
+    align-items: center;
+    gap: 2vh;
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form input{
+    width: 15vw;
+    padding: 1.1vh 0.8vh;
+    border-radius: 0.7vh;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.16); 
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.16);
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(1){
+    background-color: #cccccc;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 16vw;
+    padding: 0.9vh;
+    border-radius: 0.8vh;
+    border: none;
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(2){
+    background-color: #cccccc;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 16vw;
+    padding: 0.9vh;
+    border-radius: 0.8vh;
+    border: none;
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(3){
+    background-color: #cccccc;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 16vw;
+    padding: 0.9vh;
+    border-radius: 0.8vh;
+    border: none;
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > span{
+    font-size: 1.2rem;;
+    margin: 1vh 0 4vh 0;
+
+}
+
+.main-card > div:first-child > div:nth-of-type(2) > span a{
+    color: #FAF9F6;
+}
+
+.indication-card{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
+.indication-card > p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #cccccc;
+    padding: 0.8vh 20vw;
+    border-radius: 0.8vh;
+}
+
+.indication-card > p > svg{
+    height: 2.5vh;
+    width: 2vw;
+}
+
+.aside-container{
+    background-color: #cccccc;
+    height: 65vh;
+}
+
+.aside-container > h2{
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0 1vh 0;
+}
+
+.aside-container > div:nth-of-type(1){
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside-container > div:nth-of-type(1) > span{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 5vh 0 0 0;
+}
+
+.aside-container > div:nth-of-type(1) > span > svg{
+    width: 5vw;
+    height: 7vh;
+    margin: 3vh 0 1vh 0;
+}
+
+.aside-container > div:nth-of-type(1) > span > h3{
+    font-size: 1.4rem;
+    margin: 3vh 0;
+}
+
+.aside-container > div:nth-of-type(1) > span > p{
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+}
+
+.footer-container{
+    background-color: #cccccc;
+    height: 35vh;
+    margin: 10vh 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container > section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    text-align: start;
+}
+
+.footer-container > section:nth-of-type(1) img{
+    width: 15vw;
+    margin: 3vh 0;
+}
+
+.footer-container > section:nth-of-type(1) > p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer-container > section:nth-of-type(1) > div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-container > section:nth-of-type(1) > div > span > a > svg{
+    width: 2vw;
+    height: 3vh;
+}
+
+.footer-container > section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    text-align: start;
+}
+
+.footer-container > section:nth-of-type(2) > h2{
+    font-size: 2.2rem;
+    margin: 3vh 0 0 0;
+}
+
+.footer-container > section:nth-of-type(2) > p:nth-of-type(1){
+    font-size: 1.2rem;
+    margin: 2vh 0;
+    
+}
+
+.footer-container > section:nth-of-type(2) > a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0;
+}
+
+.footer-container > section:nth-of-type(2) > a > svg{
+    width: 2vw;
+    height: 3vh;
+}
+
+.footer-container > section:nth-of-type(2) > p:nth-of-type(2){
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.footer-container > section:nth-of-type(2) > p:nth-of-type(3){
+    font-weight: 600;
+    font-size: 1rem;
+}
