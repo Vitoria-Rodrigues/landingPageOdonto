@@ -12,13 +12,18 @@ html,body{
 }
 
 header{
+    position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
-    height: 12vh;
+    height: 10vh;
     background: #E4E4E4;
     flex-direction: column;
+    z-index: 1000!important;
+    -webkit-box-shadow: 0 0.5vh 3vh 0 rgba(0,87,106,0.20); 
+    box-shadow: 0 0.5vh 3vh 0 rgba(0,87,106,0.20);
+    /* border-bottom: solid lightgray 0.1vh; */
 }
 
 header > div:first-child {
@@ -32,38 +37,31 @@ header > div:first-child {
 }
 
 header > div:first-child > img{
-    height: 6vh;
+    height: 5.5vh;
     width: auto
 }
 
-header > div:first-child > span{
-    font-size: 1.2rem;
-    padding: 0vh 2vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+header > div:first-child > button{
+    font-size: 0.9rem;
+    padding: 0.9vh;
+    width: 16vw;
+    text-align: center;
     background: #C88143;
-    gap: 1vw;
-    border-radius: 2vh;
+    border-radius: 0.8vh;
     transition: .3s;
+    color: #fdfdfd;
+    border: 0;
 }
 
-header > div:first-child > span:hover{
+header > div:first-child > button:hover{
     background-color: #AA6D38;
-}
-header > div:first-child > span > a{
-    text-decoration: none;
-    font-size: 2vh;
-    color: #fdfdfd;
-}
-header > div:first-child > span > svg{
-    width: 1.5vw;
 }
 
 .main-container{
-    height: 88vh;
+    position: relative;
+    height: 90vh;
     width: 100%;
+    z-index: 5!important;
 }
 .top-card{
     display: flex;
@@ -71,21 +69,29 @@ header > div:first-child > span > svg{
     align-items: center;
     flex-wrap: nowrap;
     justify-content: center;
-    height: 12vh;
+    height: 17vh;
     width: 100%;
     background: snow;
 }
-
-.top-card h2{
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #0f0f0f;
+.top-card > div:first-child {
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-card > div:first-child > h1{
+    font-size: 6vh;
+    color: #00576A;
+    /* margin-left: 5vh; */
 }
 
 .main-card{
     display: flex;
     justify-content: start;
-    height: 76vh;
+    height: 73vh;
     width: 100%;
     background: snow;
     flex-direction: column;
@@ -240,7 +246,7 @@ header > div:first-child > span > svg{
 
 
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(2){
-    background-color: #900037;
+    background-color: #C88143;
     color: #fdfdfd;
     font-weight: 600;
     font-size: 0.9rem;
@@ -252,12 +258,12 @@ header > div:first-child > span > svg{
     transition: .3s;
 }
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(2):hover{
-    background-color: #72002C;
+    background-color: #AA6D38;
 }
 
 
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(3){
-    background-color: #00733B;
+    background-color: #C88143;
     color: #fdfdfd;
     font-weight: 600;
     font-size: 0.9rem;
@@ -270,7 +276,7 @@ header > div:first-child > span > svg{
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(3):hover{
-    background-color: #00572d;
+    background-color: #AA6D38;
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > span{
