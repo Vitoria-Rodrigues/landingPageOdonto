@@ -18,7 +18,7 @@ header{
     width: 100%;
     align-items: center;
     height: 10vh;
-    background: #E4E4E4;
+    background: #dfdfdf6c;
     flex-direction: column;
     z-index: 1000!important;
     -webkit-box-shadow: 0 0.5vh 3vh 0 rgba(0,87,106,0.20); 
@@ -376,7 +376,7 @@ header > div:first-child > button:hover{
 }
 
 .footer-container{
-    background-color: #cccccc;
+    background-color: #dfdfdf6c;
     width: 100%;
     height: 35vh;
     display: flex;
@@ -384,6 +384,8 @@ header > div:first-child > button:hover{
     align-items: center;
     flex-direction: column;
     margin-top: 5vh;
+    -webkit-box-shadow: 0 -0.5vh 3vh 0 rgba(0,87,106,0.20);
+    box-shadow: 0 -0.5vh 3vh 0 rgba(0,87,106,0.20);
 }
 
 .footer-container > div:first-child {
@@ -399,9 +401,8 @@ header > div:first-child > button:hover{
 .footer-container > div:first-child > section:nth-of-type(1){
     display: flex;
     flex-direction: column;
-    width: 0 auto;
+    width: auto;
     text-align: start;
-    border: 1px solid #494949;
 }
 
 .footer-container > div:first-child > section:nth-of-type(1) img{
@@ -413,6 +414,7 @@ header > div:first-child > button:hover{
     font-size: 1.1rem;
     font-weight: 600;
     margin: 0.5vh 0;
+    color: #002730;
 }
 
 .footer-container > div:first-child > section:nth-of-type(1) > div{
@@ -424,15 +426,15 @@ header > div:first-child > button:hover{
 .footer-container > div:first-child > section:nth-of-type(1) > div > span > a > svg{
     width: 2vw;
     height: 3vh;
+    fill: #002730;;
 }
 
 .footer-container > div:first-child > section:nth-of-type(2){
     display: flex;
-    width: 0 auto;
+    width: auto;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: start;
-    border: 1px solid #494949;
 
 }
 
