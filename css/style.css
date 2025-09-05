@@ -441,6 +441,7 @@ header > div:first-child > button:hover{
 .footer-container > div:first-child > section:nth-of-type(2) > h2{
     font-size: 2.2rem;
     margin: 0 0 1vh 0;
+    color: #00161b;
 }
 
 .footer-container > div:first-child > section:nth-of-type(2) > p{
@@ -448,6 +449,7 @@ header > div:first-child > button:hover{
     font-weight: bold;
     text-align: start;
     margin: 0.5vh 0;
+    color: #002730;
 }
 
 .footer-container > div:first-child > section:nth-of-type(2) > a{
