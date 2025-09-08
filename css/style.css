@@ -63,30 +63,6 @@ header > div:first-child > button:hover{
     width: 100%;
     z-index: 5!important;
 }
-.top-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: center;
-    height: 17vh;
-    width: 100%;
-    background: snow;
-}
-.top-card > div:first-child {
-    height: 100%;
-    width: 60vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
-}
-.top-card > div:first-child > h1{
-    font-size: 6vh;
-    color: #00576A;
-    /* margin-left: 5vh; */
-}
 
 .main-card{
     display: flex;
@@ -157,9 +133,11 @@ header > div:first-child > button:hover{
 }
 .main-card > div:first-child > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1{ 
     color: #F2E779;
+    font-size: 1.8rem;
 }
 .main-card > div:first-child > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2{ 
     color: snow;
+    font-size: 1.3rem;
 }
 .main-card > div:first-child > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3{ 
     color: snow;
