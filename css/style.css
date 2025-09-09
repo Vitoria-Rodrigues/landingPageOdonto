@@ -51,6 +51,7 @@ header > div:first-child > button{
     transition: .3s;
     color: #fdfdfd;
     border: 0;
+    cursor: pointer;
 }
 
 header > div:first-child > button:hover{
@@ -74,6 +75,7 @@ header > div:first-child > button:hover{
     align-items: center;
     flex-wrap: nowrap;
     border-radius: 2vh;
+    margin-top: 10vh;
 }
 
 .main-card > div:first-child{
@@ -85,7 +87,7 @@ header > div:first-child > button:hover{
     border-radius: 2vh;
     -webkit-box-shadow: 0px 0px 4vh 0px rgba(0,0,0,0.30); 
     box-shadow: 0px 0px 4vh 0px rgba(0,0,0,0.30);
-    height: 70vh;
+    height: 80vh;
     width: auto;
 }
 .main-card> div:first-child > img:nth-of-type(1){
@@ -169,11 +171,12 @@ header > div:first-child > button:hover{
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > h2{
-    padding-top: 2.5vh;
+    padding-top: 5vh;
     padding-bottom: 4vh;
     font-weight: 600;
     color:  #fff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    padding: 5vh;
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1){
@@ -241,7 +244,7 @@ header > div:first-child > button:hover{
 
 
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(3){
-    background-color: #C88143;
+    background-color: #005636;
     color: #fdfdfd;
     font-weight: 600;
     font-size: 0.9rem;
@@ -254,7 +257,7 @@ header > div:first-child > button:hover{
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1) > form > button:nth-of-type(3):hover{
-    background-color: #AA6D38;
+    background-color: #003A24;
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > span{
@@ -300,10 +303,6 @@ header > div:first-child > button:hover{
     border-top: solid #E4E4E4 0.5vh;
     border-bottom: solid #E4E4E4 0.5vh;
     gap: 5vh;
-}
-
-.aside-container > div:first-child{
-
 }
 
 .aside-container > div:first-child > h2{
