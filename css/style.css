@@ -51,6 +51,7 @@ header > div:first-child > button{
     transition: .3s;
     color: #fdfdfd;
     border: 0;
+    border-radius: 2vh;
     cursor: pointer;
 }
 
@@ -177,6 +178,7 @@ header > div:first-child > button:hover{
     color:  #fff;
     font-size: 1.5rem;
     padding: 5vh;
+    margin-top: 5vh;
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > div:nth-of-type(1){
@@ -262,12 +264,13 @@ header > div:first-child > button:hover{
 
 .main-card > div:first-child > div:nth-of-type(2) > span{
     font-size: 1.2rem;;
-    margin: 1vh 0 4vh 0;
+    margin: 0vh 0 5vh 0;
 
 }
 
 .main-card > div:first-child > div:nth-of-type(2) > span a{
     color: #FAF9F6;
+    text-decoration: none;
 }
 
 .indication-card{
@@ -292,8 +295,10 @@ header > div:first-child > button:hover{
 
 .aside-container{
     background-color: #72002E;
-    height: 65vh;
+    height: 60vh;
     display: flex;
+    margin-top: 8vh;
+    margin-bottom: 12vh;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
