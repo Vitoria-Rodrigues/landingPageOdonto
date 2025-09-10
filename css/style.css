@@ -400,12 +400,6 @@ header > div:first-child > button:hover{
     align-items: start;
 }
 
-.footer-container > div:first-child > section:nth-of-type(1) > div > span > a > svg{
-    width: 2vw;
-    height: 3vh;
-    fill: #002730;;
-}
-
 .footer-container > div:first-child > section:nth-of-type(2){
     display: flex;
     width: auto;
@@ -429,13 +423,7 @@ header > div:first-child > button:hover{
     color: #002730;
 }
 
-.footer-container > div:first-child > section:nth-of-type(2) > a{
-    font-size: 1.2rem;
-    text-decoration: none;
-    padding: 0;
-}
-
-.footer-container > div:first-child > section:nth-of-type(2) > a > svg{
-    width: 2vw;
-    height: 2.3vh;
+.footer-container > div:first-child > section:nth-of-type(2) > span > a > i{
+    font-size: 1.5rem;
+    color: #002730;;
 }
